@@ -14,76 +14,65 @@ const App = () => (
   <SafeAreaView style={styles.container}>
     <View>
       <Text style={styles.title}>
-        APLICACIÓN MOVIL elaborada por CARLOS TÉLLEZ sobre temas de Química Orgánica!!!
-      </Text> 
-      <Button
-        title="Concepto de Química Organica"
-        onPress={() => Alert.alert('Estudiamos el concepto de Química Orgánica')}
-      />
-    </View>
-    <Separator />
-    <View>
-      <Text style={styles.title}>
-        Química Orgánica es el estudio de las sustancias y compuestos de tipo orgánico, 
-        lo cual quiere decir que tienen como base combinatoria de su estructura atómica 
-        los elementos carbono, hidrógeno y algunos otros como azufre y oxígeno. Además, 
-        los compuestos orgánicos constituyen las distintas formas de seres vivos en nuestro planeta.
+        APLICACIÓN Escuela de Música doña TEO!!!!! App de CARLOS TÉLLEZ
       </Text>
+    <Button
+        title="Violín"
+        onPress={() => Alert.alert('Estudiamos el instrumento Violín')}
+      /> 
+    <Separator />  
+      <Text style={styles.title}>
+      El violín, es un instrumento musical, creado desde tiempos antiguos 
+      y cuyos orígenes corresponden a Italia, se trata de un instrumento de cuerdas frotadas.
+      </Text>
+
       <Button
-        title="Clasificación de los compuestos orgánicos"
+        title="Piano"
         color="#57a639"
-        onPress={() => Alert.alert('Estudiamos la clasificación de compuestos orgánicos')}
+        onPress={() => Alert.alert('Estudiamos el Piano')}
       />
     </View>
     <Separator />
     <View>
       <Text style={styles.title}>
-        Compuestos naturales: Son los sintetizados tanto por organismos vivos, como por procesos naturales.
-        Por ejemplo: proteínas, lípidos y ácidos nucleicos.
-        Compuestos sintéticos. Son sintetizados artificialmente por el ser humano en laboratorios químicos. 
-        Por ejemplo: fármacos, colorantes, plásticos, entre otros productos.
+      Un piano es un instrumento de teclado que produce sonido mediante 
+      el golpeo de cuerdas con pequeñas barras de metal llamadas martillos.
       </Text>
       <Button
-        title="Clasificación según su estructura"
+        title="Guitarra clásica"
         color="#ff5a36"
-        onPress={() => Alert.alert('Estudiamos la clasificación según su estructura')}
+        onPress={() => Alert.alert('Estudiamos la guitarra clásica')}
       />
     </View>
     <Separator />
     <View>
       <Text style={styles.title}>
-        1-Hidrocarburos aromáticos que son compuestos orgánicos cíclicos (con forma de anillo) como el benceno y tolueno.
-        2-Hidrocarburos alifáticos como: Alcanos, alquenos y alquinos, Alcoholes, Cetonas, Aldehídos, Acidos carboxílicos y Aminas.
-        3-Compuestos organometálicos conformados por átomos de carbono unidos covalentemente
-         a uno o más átomos de un elemento metálico como son el metil-litio y butil-litio.
+      Instrumento de cuerda. Está hecho de madera y tiene seis cuerdas, generalmente de metal o nailon.
       </Text>
       <Button
-        title="Ejemplos de Química Orgánica"
+        title="Acordeón"
         color="#0000ff"
-        onPress={() => Alert.alert('Estudiamos algunos ejemplos de Q.O')}
+        onPress={() => Alert.alert('Estudiamos acordeón')}
       />
       </View>
       <Separator />
     <View>
       <Text style={styles.title}>
-        1-Diseño y producción de antibióticos.
-        2-La industria petroquímica.
-        3-La industria de licores.
-        4-Produccion de jabón.
-        5-Síntesis de almidones.
+      instrumento musical armónico de viento, constituido por un fuelle, 
+      un diapasón y dos cajas armónicas de madera.
       </Text>
       </View>
 
       <View style={styles.fixToText}>
         <Button
-          title="Química Orgánica Avanzada"
+          title="Instrumentos de cuerda"
           color="#a12312"
-          onPress={() => Alert.alert('Estudiamos la Q.O Avanzada')}
+          onPress={() => Alert.alert('Estudiamos los instrumentos de cuerda')}
         />
         <Button
-          title="Química Orgánica Especial"
+          title="Instrumentos de viento"
           color="#a12312"
-          onPress={() => Alert.alert('Estudiamos la Q.O Especial')}
+          onPress={() => Alert.alert('Estudiamos los instrumentos de viento')}
         />
     </View>
   </SafeAreaView>
